@@ -1,0 +1,429 @@
+body {
+    background: linear-gradient(to right, rgba(182, 244, 146, 0.507), rgb(51, 139, 147));
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    color: #4CAF50;
+}
+
+.card {
+    position: fixed;
+    border: 1px solid transparent;
+    /* border-color: rgba(0, 255, 149, 0.39); */
+    border-radius: 10px;
+    padding: 20px;
+    /* width: fit-content; */
+    width: 200px;
+    height: fit-content;font-size: 18px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 10px;
+    background-color: #25252515;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: fit-content;
+    font-size: 18px;
+    background-color: rgba(127, 255, 212, 0.452);
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    top: 10px;
+    margin-left: 800px;
+    font-weight: 600;
+    background-color: #25252515;
+    margin-top: 20px;
+}
+
+.all-buttons {
+    position: fixed;
+    top: 20px;
+    right: 10px; 
+    border: none; 
+    border-radius: 0; 
+    background: transparent;
+    display: flex; 
+    gap: 10px; 
+    padding: 0; 
+}
+
+.all-buttons ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.buttons {
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: aquamarine;
+    
+}
+
+.buttons:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    scale: 1.1;
+    transition: 0.2s;
+    background: linear-gradient(to right, rgba(182, 244, 146, 0.507), rgb(51, 139, 147));
+}
+
+#about-me {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.presentation {
+    position: relative;
+    right: 10px;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    transform: translateY(100px);
+    transition: transform .25s;
+    text-align: center;
+}
+
+
+
+.presentation-title {
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.presentation-content {
+    border-radius: 10px;
+    height: fit-content;
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #25252515;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.technologies {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.technologies-2 {
+    display: flex;
+    border-radius: 10px;
+    height: fit-content;
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #25252515;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+}
+
+.technologies-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 1000px;
+    margin: 60px auto;
+    background-color: #25252515;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.technologies-2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+}
+
+/* .technologies-2 h2 {
+    color: #4CAF50;
+} */
+
+.technologies-2 ul {
+    list-style: none; 
+    display: flex; 
+    gap: 20px; 
+    padding: 0;
+    margin: 0;
+}
+
+.technologies-2 li {
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.technologies-2 img {
+    width: 50px; 
+    height: 50px;
+    object-fit: contain; 
+}
+
+.technologies-2 img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#projects {
+    margin-top: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: #25252515;
+    border-radius: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects h2 {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #4CAF50;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    justify-items: center;
+    justify-content: center;
+}
+
+.project-card {
+    text-align: center;
+    background-color: #25252515;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: #388E3C;
+}
+
+.project-card .technologies {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.project-card .technologies span {
+    margin-right: 10px;
+    background-color: #388E3C;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.project-card img {
+    height: 300px;
+}
+
+#contact {
+    margin-top: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: #25252515;
+    border-radius: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact h2 {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #4CAF50;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background-color: #25252515;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-form .form-group label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 96%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+.contact-form .form-group textarea {
+    resize: vertical;
+}
+
+.contact-form .submit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #388E3C;
+}
+
+footer {
+    background-color: #25252515;
+    padding: 40px 0;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-top: 2px solid #4CAF50;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    margin: 0 15px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.footer-text a:hover {
+    color: #388E3C;
+}

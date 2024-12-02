@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLI</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/codi.js"></script>
+</head>
+<body>
+    <header>
+        <div class="card">
+            <p>
+                <span class="day">Wednesday, June 15th</span>
+                <br>
+                <span class="time" id="current-time"></span>
+            </p>
+        </div>
+        <div class="card2">
+            <p>
+                <span class="time-text">Iván Morales / 2nDAW</span>
+            </p>
+        </div>
+        <nav class="all-buttons">
+            <ul>
+                <li><button class="buttons"
+                        onclick="location.href='./index.html'">Home</button></li>
+                <li><button class="buttons"
+                        onclick="location.href='#about-me'">About
+                        Me</button></li>
+                <li><button class="buttons"
+                        onclick="location.href='#projects'">Projects</button></li>
+                <li><button class="buttons"
+                        onclick="location.href='#contact'">Contact</button></li>
+    </header>
+    <section id="about-me">
+        <div class="presentation">
+            <nav class="presentation-title">WEB DEVELOPER</nav>
+            <p class="presentation-content">
+                My name is Iván Morales, and I am a passionate web developer with expertise in creating seamless, 
+                user-friendly, and innovative web experiences. My journey in web development has been fueled by a 
+                deep interest in technology and a drive to transform ideas into functional, visually appealing digital solutions.
+                <br><br>
+                I specialize in developing modern, responsive websites and web applications that prioritize performance and accessibility. My skill set includes:
+                Front-End Development: Crafting interactive interfaces using HTML, CSS, JavaScript, and frameworks like React or Angular.
+            </p>
+            <nav class="technologies">
+                Technologies I've worked with
+            </nav>
+            <div class="technologies-2">
+                <h2>Programming Languages</h2>
+                <ul>
+                    <li>
+                        <img src="img/java.svg" alt="Java Logo"> <span>Java</span>
+                    </li>
+                    <li>
+                        <img src="img/javascript.svg" alt="JavaScript Logo"> <span>JavaScript</span>
+                    </li>
+                    <li>
+                        <img src="img/php.svg" alt="php Logo"> <span>PHP</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="technologies-2">
+                <h2>Markup Languages</h2>
+                <ul>
+                    <li>
+                        <img src="img/html5.svg" alt="hyml Logo"> <span>HTML</span>
+                    </li>
+                    <li>
+                        <img src="img/css.svg" alt="css Logo"> <span>CSS</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="technologies-2">
+                <h2>Frameworks</h2>
+                <ul>
+                    <li>
+                        <img src="img/laravel.svg" alt="laravel Logo"> <span>Laravel</span>
+                    </li>
+                    <li>
+                        <img src="img/Bootstrap.png" alt="JavaScript Logo"> <span>Bootstrap</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="img/Connect_four_game.svg.png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Connect 4 game developed with Java</p>
+                <!-- <a href="https://github.com/ivanmxrales" target="_blank">View Details</a> -->
+                 <a href="https://papergames.io/es/conecta-4" target="_blank">View Details</a>
+            </div>
+            <div class="project-card">
+                <img src="img/Game_Over.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Combine two small fruits to make them larger and create big watermelons</p>
+                <a href="https://suikagame.com/" target="_blank">View Details</a>
+            </div>
+            <div class="project-card">
+                <img src="img/Antu_soundcloud.svg.png" alt="Project 2">
+                <h3>Project 3</h3>
+                <p>Free music web platform</p>
+                <a href="https://soundcloud.com/">View Details</a>
+            </div>
+        </div>
+     </section>
+     <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/ivanmxrales" target="_blank">
+                    <img src="img/github.svg" alt="GitHub">
+                </a>
+                <a href="https://codepen.io" target="_blank">
+                    <img src="img/codepen.svg" alt="CodePen">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="img/linkedin.svg" alt="LinkedIn">
+                </a>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2024 Iván Morales. All Rights Reserved.</p>
+                <a href="html/com.html" target="_blank" class="about-link">Com s'ha fet</a>
+            </div>
+        </div>
+    </footer>
+       
+</body>
+</html>
